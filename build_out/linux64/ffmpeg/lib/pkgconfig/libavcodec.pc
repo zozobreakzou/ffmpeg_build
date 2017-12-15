@@ -1,0 +1,14 @@
+prefix=/home/zozo/ffmpeg_build/build_out/linux64/ffmpeg
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 57.89.100
+Requires: 
+Requires.private: libswresample >= 2.7.100, libavutil >= 55.58.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -ldl -ldl -ldl -ldl -lxcb -lXau -lXdmcp -lxvidcore -L/home/zozo/ffmpeg_build/build_out/linux64/lib -lx264 -lpthread -lm -ldl -L/home/zozo/ffmpeg_build/build_out/linux64/lib -lvpx -lm -lpthread -L/home/zozo/ffmpeg_build/build_out/linux64/lib -lvpx -lm -lpthread -lvorbisenc -lvorbis -logg -L/home/zozo/ffmpeg_build/build_out/linux64/lib -lspeex -lm -lsoxr -L/home/zozo/ffmpeg_build/build_out/linux64/lib -lopus -lm -lopenjp2 -DOPJ_STATIC -lopencore-amrwb -lopencore-amrnb -lmp3lame -lilbc -lgsm -L/home/zozo/ffmpeg_build/build_out/linux64/lib -lfribidi -L/home/zozo/ffmpeg_build/build_out/linux64/lib -lfreetype -lpng16 -lm -lz -lm -lz -L/home/zozo/ffmpeg_build/build_out/linux64/lib -lfdk-aac -lm -L/home/zozo/ffmpeg_build/build_out/linux64/lib -lass -lm -lfribidi -lfreetype -lpng16 -lm -lz -lm -lz -lm -lz -pthread
+Cflags: -I${includedir}

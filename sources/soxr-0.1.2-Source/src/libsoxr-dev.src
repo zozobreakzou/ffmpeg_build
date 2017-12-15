@@ -1,0 +1,2 @@
+set(TARGET_HEADERS "/home/zozo/ffmpeg_build/sources/soxr-0.1.2-Source/src/soxr.h;/home/zozo/ffmpeg_build/sources/soxr-0.1.2-Source/src/soxr-lsr.h")
+set(TARGET_PCS "/home/zozo/ffmpeg_build/sources/soxr-0.1.2-Source/src/soxr.pc /home/zozo/ffmpeg_build/sources/soxr-0.1.2-Source/src/soxr-lsr.pc")

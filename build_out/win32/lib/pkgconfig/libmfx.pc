@@ -1,0 +1,11 @@
+prefix=/home/zozo/ffmpeg_build/build_out/win32
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libmfx
+Description: Intel Media SDK Dispatched static library
+Version: 1.19
+Libs: -L${libdir} -lmfx -lstdc++   
+Libs.private:
+Cflags: -I${includedir}

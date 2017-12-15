@@ -1,0 +1,14 @@
+prefix=/home/zozo/ffmpeg_build/build_out/win32
+exec_prefix=/home/zozo/ffmpeg_build/build_out/win32
+libdir=/home/zozo/ffmpeg_build/build_out/win32/lib
+includedir=/home/zozo/ffmpeg_build/build_out/win32/include
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 20.0.14
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

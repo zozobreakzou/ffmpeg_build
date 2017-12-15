@@ -1,0 +1,1 @@
+set(TARGET_LIBS "/home/zozo/ffmpeg_build/sources/soxr-0.1.2-Source/src/libsoxr.a;/home/zozo/ffmpeg_build/sources/soxr-0.1.2-Source/src/libsoxr-lsr.a")

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zozo/ffmpeg_build/sources/soxr-0.1.2-Source/src/lsr.c
+assert.h
+-
+stdlib.h
+-
+soxr.h
+/home/zozo/ffmpeg_build/sources/soxr-0.1.2-Source/src/soxr.h
+soxr-lsr.h
+/home/zozo/ffmpeg_build/sources/soxr-0.1.2-Source/src/soxr-lsr.h
+rint.h
+/home/zozo/ffmpeg_build/sources/soxr-0.1.2-Source/src/rint.h
+
+/home/zozo/ffmpeg_build/sources/soxr-0.1.2-Source/src/rint.h
+soxr-config.h
+/home/zozo/ffmpeg_build/sources/soxr-0.1.2-Source/src/soxr-config.h
+math.h
+-
+
+/home/zozo/ffmpeg_build/sources/soxr-0.1.2-Source/src/soxr-lsr.h
+
+/home/zozo/ffmpeg_build/sources/soxr-0.1.2-Source/src/soxr.h
+cstddef
+-
+stddef.h
+-
+
+soxr-config.h
+limits.h
+-
+

@@ -1,0 +1,9 @@
+/home/zozo/ffmpeg_build/build_out/linux64/share/doc/libsoxr/README
+/home/zozo/ffmpeg_build/build_out/linux64/share/doc/libsoxr/LICENCE
+/home/zozo/ffmpeg_build/build_out/linux64/share/doc/libsoxr/NEWS
+/home/zozo/ffmpeg_build/build_out/linux64/lib/pkgconfig/soxr.pc
+/home/zozo/ffmpeg_build/build_out/linux64/lib/pkgconfig/soxr-lsr.pc
+/home/zozo/ffmpeg_build/build_out/linux64/lib/libsoxr.a
+/home/zozo/ffmpeg_build/build_out/linux64/include/soxr.h
+/home/zozo/ffmpeg_build/build_out/linux64/lib/libsoxr-lsr.a
+/home/zozo/ffmpeg_build/build_out/linux64/include/soxr-lsr.h
